@@ -1,0 +1,59 @@
+{
+    "project_type": "javascript",
+    "debugMode": 1,
+    "showFPS": true,
+    "frameRate": 60,
+    "id": "gameCanvas",
+    "renderMode": 0,
+    "engineDir": "frameworks/cocos2d-html5",
+    "modules": [
+      "cocos2d",
+      "extensions"
+    ],
+    "jsList": [
+      "src/resource.js",
+      "src/config.js",
+      "src/LevelConfig.js",
+      
+      "src/common/utils/Constants.js",
+       "src/common/utils/Util.js",
+       
+      "src/common/layer/BaseLayer.js",
+      "src/common/layer/BackgroundLayer.js",
+      
+      "src/common/manage/LevelManage.js",
+      "src/common/manage/MusicManage.js",
+      "src/common/manage/SoundManage.js",
+      
+      "src/mainMenuScene/MainMenu.js",
+      "src/mainMenuScene/layer/MMMainLayer.js",
+      "src/mainMenuScene/MainMenu.js",
+      
+      "src/levelSelectScene/layer/LSMainLayer.js",
+      "src/levelSelectScene/LevelSelect.js",
+      "src/levelSelectScene/node/LevelButton.js",
+      "src/levelSelectScene/node/PageMark.js",
+      
+      "src/levelInfoScene/layer/LIMainLayer.js",
+      "src/levelInfoScene/LevelInfo.js",
+      
+      "src/gameScene/layer/InfoLayer.js",
+      "src/gameScene/node/Candy.js",
+      "src/gameScene/Game.js",
+      "src/gameScene/layer/MenuLayer.js",
+      
+      "src/aboutScene/About.js",
+      
+      "src/successScene/layer/SMainLayer.js",
+      "src/successScene/Success.js",
+      
+      "src/gameScene/layer/GBackgroundLayer.js",
+      "src/gameScene/layer/GMainLayer.js",
+      
+      "src/failScene/layer/FMainLayer.js",
+      "src/failScene/Fail.js",
+      
+      "src/settingScene/Setting.js",
+      "src/settingScene/layer/STMainLayer.js"
+    ]
+  }
